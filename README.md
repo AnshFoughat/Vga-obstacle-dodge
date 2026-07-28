@@ -52,16 +52,13 @@ real_vga_top
 
 ## Media
 
-- 🗺️ **RTL Architecture Diagram:** `docs/architecture.png`
-- 📈 **Simulation Waveform:** `docs/waveform.png`
-- 📹 **Gameplay Video:** `media/gameplay_demo.mp4`
+- 🗺️ **RTL Architecture Diagram:** `architecture.png`
+- 📈 **Simulation Waveform:** `waveform.png`
+- 📹 **Gameplay Video:** `gameplay_demo.mp4`
 
 ---
 
 ## License
-
-MIT License
-
 Copyright (c) 2026 Ansh_Foughat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
