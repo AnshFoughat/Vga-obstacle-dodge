@@ -31,7 +31,4 @@ module vga_timing(
 
 
 
-assign x = h_count;
-assign y = v_count;
-
 endmodule
