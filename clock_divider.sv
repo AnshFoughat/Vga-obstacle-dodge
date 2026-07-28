@@ -37,18 +37,4 @@ end
 
 assign clk_out = div_cnt[1];
 
-//always @(posedge clk_in or posedge rst) begin
-//    if (rst) begin
-//        div_cnt <= 0;
-//        clk_out <= 0;
-//    end
-//    else if (div_cnt == 1) begin
-//        div_cnt <= 0;
-//        clk_out <= ~clk_out;
-//    end
-//    else begin
-//        div_cnt <= div_cnt + 1;
-//        clk_out <= clk_out;
-//    end
-//end
 endmodule
