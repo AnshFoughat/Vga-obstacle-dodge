@@ -5,7 +5,8 @@ A real-time obstacle-dodging arcade game rendered live over VGA on FPGA, written
 
 
 Features
-  VGA timing generator (640x480 or your configured resolution) driving sync + RGB output
+
+  VGA timing generator (640x480 or your configured resolution) driving sync + RGB output 
   Debounced push-button input for player control (up / down)
   FSM-driven game states (idle / playing / collision / game over, etc.)
   Hardware collision detection between player sprite and obstacles
@@ -31,9 +32,10 @@ Architecture
 
 
 Synthesis / Hardware
-1  Add all files under rtl/ to your FPGA vendor project (Vivado).
-2  Constrain clk and rst to your board's clock and reset pins.
-3  Map hsync, vsync, vga_r, vga_g, vga_b to the VGA connector pins.
+
+1  Add all files under rtl/ to your FPGA vendor project (Vivado). 
+2  Constrain clk and rst to your board's clock and reset pins. 
+3  Map hsync, vsync, vga_r, vga_g, vga_b to the VGA connector pins. 
 4  Map btn_up / btn_down to your board's push buttons.
 5  Generate bitstream and program the board.
 
