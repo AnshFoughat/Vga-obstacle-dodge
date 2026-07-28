@@ -28,7 +28,5 @@ module score_engine (
 );
 
 
-    end
-end
 
 endmodule
