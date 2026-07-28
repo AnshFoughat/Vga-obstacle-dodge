@@ -1,6 +1,6 @@
 # Vga-obstacle-dodge
 
-A real-time obstacle-dodging arcade game rendered live over VGA on FPGA, written in Verilog.
+A real-time obstacle-dodging arcade game rendered live over VGA on FPGA, written in SystemVerilog.
 The player moves a sprite up/down to avoid incoming obstacles; collision detection, scoring,
 and game state are all handled in hardware, with VGA timing generated from scratch
 (no framebuffer/soft IP).
